@@ -8,12 +8,6 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Шапка страницы*/
-
-/*header {
-
-}*/
-
 body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/oh.jpg");
     height: auto;
@@ -27,7 +21,6 @@ ul {
     list-style-type: none;
     margin-right: 50px;
 }
-/*Float- in care parte se afla elemetele */
 
 ul li {
     display: inline-block;
@@ -54,6 +47,7 @@ ul li.active a {
 .logo img {
     width: 125px;
     height: auto;
+    margin-left: 30px;
 }
 
 .main {
@@ -62,14 +56,12 @@ ul li.active a {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    /* outline: 1px solid green; */
     height: 70px;
     position: fixed;
     z-index: 1;
 }
 
 .title {
-    /* border: 1px solid red; */
     text-align: center;
     width: 99%;
 }
@@ -175,6 +167,31 @@ a i.fa {
     font-size: 25px;
     text-align: center;
     display: block;
+}
+
+.buttonUp {
+    width: 35px;
+    height: 35px;
+    z-index: 99;
+    background: white;
+    color: red;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    padding: 3px 5px;
+    box-shadow: 0 0 3px black;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 15px;
+}
+
+.buttonUp:hover {
+    background: rgb(255, 255, 255);
+}
+
+.buttonUp:active {
+    color: cyan;
 }
 
 /* ======================================= aceste stiluri sunt pentru pagina Home ============================================*/
